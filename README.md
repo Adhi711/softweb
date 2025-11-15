@@ -1,5 +1,5 @@
 # Ex.07 Restuarant Website
-## Date:26-10-2025
+## Date:15-11-2025
 
 ## AIM:
 To develop a static Resturant website to display the menu and services provided by the resturant.
@@ -35,13 +35,13 @@ index.html
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Harry Potter's Café | Home</title>
+  <title>Marvel's Café | Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="home"> 
     
   <header>
-    <div class="logo">⚡ Harry Potter's Café</div>
+    <div class="logo">⚡ Marvel's Café</div>
     <nav>
       <a href="index.html" class="active">Home</a>
       <a href="food.html">Dishes</a>
@@ -51,77 +51,18 @@ index.html
   </header>
 
   <section class="hero">
-    <h1>Welcome to Harry Potter's Café</h1>
-    <p>Step into a world of enchantment and flavor! Inspired by the magical universe of Hogwarts, our café brings you bewitching dishes, brewed potions, and desserts straight from the wizarding world.</p>
+    <h1>Welcome to Marvel's Café</h1>
+    <p>Step into a world of enchantment and flavor! Inspired by the Marvelous universe of Hogwarts, our café brings you bewitching dishes, brewed potions, and desserts straight from the wizarding world.</p>
     <a href="food.html" class="btn">Explore the Menu ⚡</a>
   </section>
 
   <footer>
-    <p>© 2025 Harry Potter's Café | Where Magic Meets Taste ✨</p>
+    <p>© 2025 Marvel's Café | Where Magic Meets Taste ✨</p>
   </footer>
 
 </body>
 </html>
 
-'''
-food.html
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Harry Potter's Café - Dishes</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<body class="food"></body>
-
-<header>
-  <div class="logo">⚡ Harry Potter's Café</div>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="food.html" class="active">Dishes</a>
-    <a href="chef.html">Chefs</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
-
-<section>
-  <h2>Our Magical Dishes</h2>
-  <div class="grid">
-    <div class="card">
-      <img src="HPFOOD1.webp" alt="Butterbrew Soup">
-      <h3>Hogwarts Feast Combo</h3>
-      <p>Warm buttery ale-based broth — comfort in a cauldron.</p>
-    </div>
-
-    <div class="card">
-      <img src="HPFOOD2.jpg" alt="Pumpkin Pasties">
-      <h3>Polyjuice Potion</h3>
-      <p>Flaky golden pastry filled with sweet pumpkin and sage.</p>
-    </div>
-
-    <div class="card">
-      <img src="HPFOOD3.jpeg" alt="Firewhisky Ribs">
-      <h3>Deathly Hallows Potato Trio</h3>
-      <p>Spicy ribs glazed with a fiery potion of Firewhisky.</p>
-    </div>
-
-    <div class="card">
-      <img src="HPFOOD4.jpg" alt="Chocolate Frog Mousse">
-      <h3>HP's SPL B'day CAKE</h3>
-      <p>A sweet spell of rich chocolate mousse, pure wizard delight.</p>
-    </div>
-  </div>
-</section>
-
-<footer>
-  © 2025 Harry Potter's Café — Brewed with magic and butterbeer ✨
-</footer>
-
-</body>
-</html>
 
 ```
 chef.html
@@ -131,14 +72,14 @@ chef.html
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Harry Potter's Café - Chefs</title>
+  <title>Marvel's Café - Chefs</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <body class="chef"></body>
 
 <header>
-  <div class="logo">⚡ Harry Potter's Café</div>
+  <div class="logo">⚡ Marvel's Café</div>
   <nav>
     <a href="index.html">Home</a>
     <a href="food.html">Dishes</a>
@@ -148,22 +89,22 @@ chef.html
 </header>
 
 <section>
-  <h2>Our magical Chefs</h2>
+  <h2>Our marvelous Chefs</h2>
   <div class="grid">
     <div class="card">
-      <img src="image copy 6.png" alt="Madam Marigold">
+      <img src="chef1.png" alt="Madam Marigold">
       <h3>Madam Marigold</h3>
       <p>Head Witch of Potions — specializes in enchanted broths.</p>
     </div>
 
     <div class="card">
-      <img src="image copy 8.png" alt="Garrick Flame">
+      <img src="chef2.jpg" alt="Garrick Flame">
       <h3>Gordan Ramsay</h3>
       <p>Master of Fire Charms — grill expert known for smoky Firewhisky trio.</p>
     </div>
 
     <div class="card">
-      <img src="image copy 7.png" alt="Seraphine Spice">
+      <img src="chef3.jpg" alt="Seraphine Spice">
       <h3>Garrick Flame</h3>
       <p>Sweet Alchemist — creator of the sweety cakes.</p>
     </div>
@@ -171,11 +112,12 @@ chef.html
 </section>
 
 <footer>
-  © 2025 Harry Potter's Café — Magic in every recipe 🪄
+  © 2025 Marvel's Café — Marvelous in every recipe 🪄
 </footer>
 
 </body>
 </html>
+
 
 ```
 contact.html
@@ -185,14 +127,14 @@ contact.html
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Harry Potter's Café | Contact</title>
+  <title>Marvel's Café | Contact</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <body class="contact"></body>
   
   <header>
-    <div class="logo">⚡ Harry Potter's Café</div>
+    <div class="logo">⚡ Marvel's Café</div>
     <nav>
       <a href="index.html">Home</a>
       <a href="food.html">Dishes</a>
@@ -208,18 +150,19 @@ contact.html
     </p>
 
     <div style="margin-top:40px; font-size:25px; line-height:2;">
-      <p>📍 Address: 123 Diagon Alley, Wizarding District, London</p>
+      <p>📍 Address: 123 Diagon Alley, louisville Kentucky District,America</p>
       <p>📞 Phone: +44 1234 567890</p>
-      <p>📧 Email: hello@harrypotterscafe.com</p>
+      <p>📧 Email: hello@marvelscafe.com</p>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 Harry Potter's Café | Where Magic Meets Taste ✨</p>
+    <p>© 2025 Marvel's Café | Where Magic Meets Taste ✨</p>
   </footer>
 
 </body>
 </html>
+
 
 ```
 style.css
@@ -248,10 +191,10 @@ body {
   background-repeat: no-repeat;
 }
 
-body.home { background-image: url('image copy.png'); }
-body.food { background-image: url('image copy 2.png'); }
-body.chef { background-image: url('image copy 3.png'); }
-body.contact { background-image: url('image copy 5.png'); }
+body.home { background-image: url('home.jpg'); }
+body.food { background-image: url('food.jpg'); }
+body.chef { background-image: url('chefbg.webp'); }
+body.contact { background-image: url('contact.jpeg'); }
 
 body::before {
   content: '';
@@ -378,16 +321,15 @@ footer {
   section.contact-info { font-size: 20px; }
 }
 
+
 ```
 
 ## OUTPUT:
 
-![alt text](<Screenshot 2025-10-26 122302.png>)
+![alt text](<Screenshot 2025-11-15 092154.png>)
+![alt text](<Screenshot 2025-11-15 085810.png>)
+![alt text](<Screenshot 2025-11-15 091709.png>)
+![alt text](<Screenshot 2025-11-15 090548.png>)
 
-![alt text](<Screenshot 2025-10-26 122316.png>)
-
-![alt text](<Screenshot 2025-10-26 122350.png>)
-
-![alt text](<Screenshot 2025-10-26 122359.png>)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
