@@ -29,7 +29,7 @@ Publish the website in the given URL.
 
 ## PROGRAM:
 index.html
-'''
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,7 +62,6 @@ index.html
 
 </body>
 </html>
-
 
 ```
 chef.html
@@ -118,7 +117,6 @@ chef.html
 </body>
 </html>
 
-
 ```
 contact.html
 ```
@@ -162,7 +160,6 @@ contact.html
 
 </body>
 </html>
-
 
 ```
 style.css
@@ -320,7 +317,6 @@ footer {
   h2 { font-size: 32px; }
   section.contact-info { font-size: 20px; }
 }
-
 
 ```
 
